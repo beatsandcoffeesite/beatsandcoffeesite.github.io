@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'BebasNeue';
+    src: url("../font/BEBASNEUE.OTF") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
 .testDiv{
     font-size: 58px;
+    font-family: 'BebasNeue';
 }
