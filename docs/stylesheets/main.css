@@ -1,3 +1,78 @@
-.testDiv{
-    font-size: 58px;
+@font-face {
+    font-family: 'BebasNeue';
+    src: url("../font/BEBASNEUE.OTF") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.siteBody{
+    margin-top: 15px;
+    background-color: black;
+    font-family: 'BebasNeue';
+}
+
+.pageContainer{
+    /* -moz-box-shadow: inset 0 0 5px #ffffff;
+    -webkit-box-shadow: inset 0 0 5px #ffffff;
+    box-shadow: inset 0 0 5px #000000;
+    background: #795F46;
+    border-top: 10px solid #FEEAB1;
+    max-width: 960px;
+    padding: 0; */
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
+
+.logo-container{
+    margin-bottom: 3%;
+    width: 100%;
+}
+
+.logo{
+    display: block;
+    position: absolute;
+}
+
+.header-text span.header-text-span {
+    line-height: 95px;
+    font-size: 12rem;
+    color: white;
+    /* content: "BEATS & COFFEE"; */
+}
+
+.subheader-text-span {
+    font-size: 2.7rem;
+    color: white;
+}
+
+.social-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.mission-statement {
+    text-align: center;
+    white-space: normal;
+    font-size: 2.2rem;
+    color: #ffffff;
+    overflow: hidden;
+    flex-direction: column;
+    line-height: 1.2;
+}
+
+.column.description.mission-statement p:hover {
+    -webkit-animation: shake 0.8s;
+    -moz-animation: shake 0.8s;
+    -ms-animation: shake 0.8s;
+    -o-animation: shake 0.8s;
+    animation: shake 0.8s;
+}
+
+@media (max-width: 545px) {
+    .header-text{
+        display:none;
+    }
 }
