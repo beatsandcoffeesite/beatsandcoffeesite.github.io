@@ -6,7 +6,7 @@
 }
 
 .siteBody{
-    margin-top: 15px;
+    margin-top: 25px;
     background-color: black;
     font-family: 'BebasNeue';
 }
@@ -31,6 +31,8 @@
 
 .logo{
     display: block;
+    width: 80%;
+    margin: auto;
 }
 
 .header-text span.header-text-span {
