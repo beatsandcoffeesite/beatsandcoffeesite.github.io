@@ -31,7 +31,6 @@
 
 .logo{
     display: block;
-    position: absolute;
 }
 
 .header-text span.header-text-span {
@@ -69,10 +68,4 @@
     -ms-animation: shake 0.8s;
     -o-animation: shake 0.8s;
     animation: shake 0.8s;
-}
-
-@media (max-width: 545px) {
-    .header-text{
-        display:none;
-    }
 }
