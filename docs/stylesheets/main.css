@@ -36,7 +36,14 @@
 }
 
 .subheader-text-span {
+    display: auto;
     font-size: 2.7rem;
+    color: white;
+}
+
+.subheader-short-text-span {    
+    display: none;
+    font-size: 2rem;
     color: white;
 }
 
@@ -77,5 +84,13 @@
     .header-text span.header-text-span {
         line-height: 60px;
         font-size: 6.2rem;
+    }
+
+    .subheader-text-span {
+        display: none;
+    }
+
+    .subheader-short-text-span {  
+        display: block;
     }
 }
