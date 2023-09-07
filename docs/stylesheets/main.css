@@ -12,16 +12,9 @@
 }
 
 .pageContainer{
-    /* -moz-box-shadow: inset 0 0 5px #ffffff;
-    -webkit-box-shadow: inset 0 0 5px #ffffff;
-    box-shadow: inset 0 0 5px #000000;
-    background: #795F46;
-    border-top: 10px solid #FEEAB1;
-    max-width: 960px;
-    padding: 0; */
     text-align: center;
     margin: auto;
-    width: 50%;
+    width: 75%;
 }
 
 .logo-container{
@@ -70,4 +63,12 @@
     -ms-animation: shake 0.8s;
     -o-animation: shake 0.8s;
     animation: shake 0.8s;
+}
+
+@media screen and (max-width: 48em){
+    .pageContainer{
+        text-align: center;
+        margin: auto;
+        width: 100%;
+    }
 }
